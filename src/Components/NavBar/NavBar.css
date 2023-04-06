@@ -1,3 +1,12 @@
-.navbar-container{
+.navbar-container {
     display: flex;
+    background: #fff;
+    height: 80px;
+    box-shadow: 2px 2px 2px #e9e2e2;
+}
+
+.logo {
+    width: 110px;
+    margin-top: 25px;
+    margin-left: 40px;
 }
