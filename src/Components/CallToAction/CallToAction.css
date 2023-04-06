@@ -1,0 +1,11 @@
+.cta-container {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.cta-text .first-text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 50px;
+}
