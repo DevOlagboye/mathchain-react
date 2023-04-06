@@ -1,0 +1,39 @@
+.layer-container {
+  padding: 60px;
+  position: relative;
+  background: rgba(255, 248, 242, 0.8);
+}
+
+.layer-text {
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+}
+
+.layer-banner {
+  position: absolute;
+  top: -170px;
+  right: 0px;
+  width: 400px;
+}
+
+.layer-text-details {
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+}
+
+.layer-button {
+  background: #000;
+  color: #fff;
+  border: none;
+  width: 150px;
+  padding: 10px 0px;
+  border-radius: 30px;
+}
+
+@media (min-width: 776px) {
+  .layer-text {
+    font-size: 40px;
+  }
+}

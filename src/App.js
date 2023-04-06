@@ -4,6 +4,7 @@ import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
 import NavBar from './Components/NavBar/NavBar';
 import HeroPage from './Components/HeroPage/HeroPage';
 import CallToAction from './Components/CallToAction/CallToAction';
+import Layer from './Components/Layer/Layer';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <NavBar/>
       <HeroPage/>
       <CallToAction/>
+      <Layer/>
       </Router>
     </div>
   );
