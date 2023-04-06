@@ -1,5 +1,8 @@
 .cta-container {
   padding: 30px;
+}
+
+.cta-text-container {
   display: flex;
   justify-content: center;
 }
@@ -34,4 +37,50 @@
   position: absolute;
   right: -50px;
   bottom: 0px;
+}
+
+.cta-details-container {
+  display: flex;
+  justify-content: center;
+}
+
+.cta-details {
+  width: 500px;
+}
+
+.first-img {
+  background: #ec521e;
+  padding: 10px 10px 0px 10px;
+  border-radius: 30px;
+}
+
+.second-img {
+  background: #f5ce43;
+  padding: 10px 10px 0px 10px;
+  border-radius: 30px;
+}
+
+.third-img {
+  background: #4e4de6;
+  padding: 10px 10px 0px 10px;
+  border-radius: 30px;
+}
+
+.first-img img,
+.second-img img,
+.third-img img,
+.fourth-img img,
+.fifth-img img,
+.sixth-img img,
+.seventh-img img {
+  width: 25px;
+}
+
+@media (max-width: 600px) {
+  .second-text {
+    font-size: 30px;
+  }
+  .first-text {
+    font-size: 30px;
+  }
 }
