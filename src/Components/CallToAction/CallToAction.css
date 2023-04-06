@@ -4,8 +4,34 @@
   justify-content: center;
 }
 
-.cta-text .first-text {
+.cta-text {
+  text-align: center;
+  position: relative;
+}
+
+.first-text {
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
   font-size: 50px;
+}
+
+.second-text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 50px;
+  color: #ec521e;
+  margin-top: -30px;
+}
+
+.icon-left {
+  width: 50px;
+  position: absolute;
+  left: -50px;
+}
+
+.icon-right {
+  width: 50px;
+  position: absolute;
+  right: -50px;
+  bottom: 0px;
 }
