@@ -1,5 +1,7 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import logo from "../../assets/images/LOGO.png";
+import "./NavBar.css"
 
 const NavBar = () => {
   return (
@@ -8,6 +10,35 @@ const NavBar = () => {
         <a href="https://matchain.io" className="logo">
           <img src={logo} alt="" />
         </a>
+        <ul className="nav-list">
+          <li className="nav-item">
+            <NavLink
+              to="/"
+              className="nav-links"
+              style={({ isActive }) => ({
+                borderBottom: isActive ? "2px red solid": "none"
+              })}
+            >Testnet</NavLink>
+          </li>
+          <li className="nav-item">
+            <NavLink
+              to="/developers"
+              className="nav-links"
+              style={({ isActive }) => ({
+                borderBottom: isActive ? "2px red solid": "none"
+              })}
+            >Developers</NavLink>
+          </li>
+          <li className="nav-item">
+            <NavLink
+              to="/ecosystem"
+              className="nav-links"
+              style={({ isActive }) => ({
+                borderBottom: isActive ? "2px red solid": "none"
+              })}
+            >Ecosystem</NavLink>
+          </li>
+        </ul>
       </div>
     </header>
   );
