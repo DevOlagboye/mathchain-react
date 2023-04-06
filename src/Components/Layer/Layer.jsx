@@ -1,5 +1,6 @@
 import React from "react";
 import "./Layer.css";
+import { BsArrowRight } from "react-icons/bs";
 import layerBanner from "../../assets/images/layer-banner.png";
 
 const Layer = () => {
@@ -11,7 +12,9 @@ const Layer = () => {
       <h5 className="layer-text-details">
         Building a connected, decentralized future
       </h5>
-      <button className="layer-button">DVEDOCS</button>
+      <button className="layer-button">
+        DVEDOCS <BsArrowRight className="icon" />
+      </button>
       <img src={layerBanner} alt="" className="layer-banner" />
     </div>
   );

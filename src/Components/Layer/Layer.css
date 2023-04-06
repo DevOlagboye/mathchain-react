@@ -28,12 +28,34 @@
   color: #fff;
   border: none;
   width: 150px;
-  padding: 10px 0px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  padding: 9px 0px;
   border-radius: 30px;
+}
+
+.layer-button:hover {
+  background: #ec531d;
+  cursor: pointer;
+  transition: ease 0.5s;
+}
+
+.icon {
+  color: #fff;
+  font-size: 19px;
+  margin-left: 10px;
+  margin-bottom: -4px;
 }
 
 @media (min-width: 776px) {
   .layer-text {
     font-size: 40px;
+  }
+}
+
+@media (max-width: 992px) {
+  .layer-banner {
+    width: 180px;
+    top: -100px;
   }
 }
