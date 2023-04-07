@@ -1,9 +1,14 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import logo from "../../assets/images/LOGO.png";
 import "./NavBar.css";
 
 const NavBar = () => {
+  const navigate = useNavigate();
+  const handleNavigate = (e) => {
+    e.preventDefault();
+    window.open("https://testnet.matchscan.io/", "_blank");
+  };
   return (
     <header>
       <div className="navbar-container">
@@ -15,6 +20,7 @@ const NavBar = () => {
             <NavLink
               to="/"
               className="nav-links"
+              onClick={handleNavigate}
               style={({ isActive }) => ({
                 borderBottom: isActive ? "2px red solid" : "none",
               })}
@@ -24,8 +30,9 @@ const NavBar = () => {
           </li>
           <li className="nav-item">
             <NavLink
-              to="/developers"
+              to="https://matchain.gitbook.io/match-chain/"
               className="nav-links"
+              target="_blank"
               style={({ isActive }) => ({
                 borderBottom: isActive ? "2px red solid" : "none",
               })}
