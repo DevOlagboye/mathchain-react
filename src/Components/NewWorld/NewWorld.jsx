@@ -1,4 +1,5 @@
 import React from "react";
+import newWorldImage from "../../assets/images/newworld-left.png";
 import "./NewWorld.css";
 
 const NewWorld = () => {
@@ -10,6 +11,7 @@ const NewWorld = () => {
         </h5>
         <h5 className="second-new-world-text">OF CONNECTED TRAFFIC</h5>
         <p>Building the Decentralized Social Network We Truly Deserve</p>
+        <img src={newWorldImage} alt="" />
       </div>
     </div>
   );

@@ -3,6 +3,7 @@
   justify-content: center;
   flex-direction: column;
   text-align: center;
+  position: relative;
 }
 
 .new-world-text > h5 {
@@ -15,6 +16,13 @@
   text-transform: uppercase;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
+}
+
+.new-world-text img {
+  width: 100px;
+  position: absolute;
+  bottom: -90px;
+  left: 20%;
 }
 
 .new-world-text > h5 span {
