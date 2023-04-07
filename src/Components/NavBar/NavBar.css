@@ -17,6 +17,7 @@
 
 .nav-list {
   display: flex;
+  align-items: center;
   margin-right: 15%;
 }
 
@@ -27,6 +28,10 @@
   border-right: 2px solid #ece7e7;
 }
 
+.nav-item:nth-last-child(2) {
+  border: none;
+}
+
 .nav-links {
   text-decoration: none;
   font-family: "Montserrat", sans-serif;
@@ -35,7 +40,27 @@
   padding: 7px 0px;
 }
 
-@media (max-width: 776px) {
+.dropdown-menu {
+  list-style: none;
+  font-family: "Montserrat", sans-serif;
+  color: #000;
+  font-weight: 600;
+  border: 1px solid #ece7e7;
+  padding: 10px 15px 10px 15px;
+  border-radius: 30px;
+}
+
+.language-choose {
+  width: 30px;
+  border-right: 2px solid #ece7e7;
+  padding: 0px 10px 0px 0px;
+}
+
+.dropdown-menu:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 1024px) {
   .nav-list {
     display: none;
   }

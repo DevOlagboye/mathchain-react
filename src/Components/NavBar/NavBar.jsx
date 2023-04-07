@@ -1,6 +1,8 @@
 import React from "react";
 import { NavLink, useNavigate } from "react-router-dom";
+import { Dropdown } from "antd";
 import logo from "../../assets/images/LOGO.png";
+import languageChoose from "../../assets/images/Language_notchoose.png";
 import "./NavBar.css";
 
 const NavBar = () => {
@@ -9,6 +11,20 @@ const NavBar = () => {
     e.preventDefault();
     window.open("https://testnet.matchscan.io/", "_blank");
   };
+  const items = [
+    {
+      label: <a href="##">English</a>,
+      key: "0",
+    },
+    {
+      label: <a href="##">Francais</a>,
+      key: "0",
+    },
+    {
+      label: <p href="##">Portugues</p>,
+      key: "0",
+    },
+  ];
   return (
     <header>
       <div className="navbar-container">
@@ -51,6 +67,16 @@ const NavBar = () => {
               Ecosystem
             </NavLink>
           </li>
+          <Dropdown menu={{ items }} trigger={["click"]}>
+            <li className="dropdown-menu" onClick={(e) => e.preventDefault()}>
+              <img
+                src={languageChoose}
+                alt="language"
+                className="language-choose"
+              />{" "}
+              Language{" "}
+            </li>
+          </Dropdown>
         </ul>
       </div>
     </header>
