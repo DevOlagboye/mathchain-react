@@ -17,7 +17,7 @@ const Match = () => {
       </div>
       <div className="match-text-image">
         <div className="match-text-details">
-          <h5>
+          <p>
             Match's modularity enables the seamless <br />
             integration of new features and upgrades <br />
             without compromising user-owned content
@@ -27,7 +27,7 @@ const Match = () => {
             to build and maintain authentic relationships
             <br /> with their community on a decentralized <br />
             platform.
-          </h5>
+          </p>
         </div>
         <div className="match-image">
           <img src={matchImage} alt="" />

@@ -35,12 +35,12 @@
   flex-wrap: wrap;
   margin-top: 90px;
   justify-content: center;
-  gap: 200px;
+  gap: 100px;
 }
 
 .match-text-details {
   font-family: "Montserrat", sans-serif;
-  font-weight: normal;
+  font-weight: 500;
   font-size: 20px;
   line-height: 30px;
 }

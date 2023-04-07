@@ -9,6 +9,7 @@ import HyperScale from './Components/HyperScale/HyperScale';
 import About from './Components/About/About';
 import NonZero from './Components/NonZero/NonZero';
 import Match from './Components/Match/Match';
+import NewWorld from './Components/NewWorld/NewWorld';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <About/>
       <NonZero/>
       <Match/>
+      <NewWorld/>
       </Router>
     </div>
   );

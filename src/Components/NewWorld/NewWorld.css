@@ -1,0 +1,41 @@
+.new-world-text {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.new-world-text > h5 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.new-world-text > p {
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+.new-world-text > h5 span {
+  background: #ec521e;
+  color: #fff;
+  padding: 6px;
+  margin-right: 10px;
+}
+
+.second-new-world-text {
+  margin-top: -40px;
+  margin-left: 200px;
+}
+
+@media (max-width: 600px) {
+  .new-world-text > h5 {
+    font-weight: 700;
+    font-size: 20px;
+  }
+  .second-new-world-text {
+    margin-top: -20px;
+    margin-left: 100px;
+  }
+}
