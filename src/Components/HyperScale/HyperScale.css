@@ -20,3 +20,16 @@
   top: -70px;
   width: 100px;
 }
+
+@media (max-width: 800px) {
+  .hyper-img {
+    width: 80px;
+    top: -50px;
+    right: 4px;
+  }
+  .hyperscale-main-text > h3 {
+    font-size: 30px;
+    line-height: 30px;
+    margin-top: 20px;
+  }
+}
