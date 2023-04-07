@@ -1,3 +1,8 @@
 .about-container {
   padding: 50px;
 }
+
+.about-info-image {
+  display: flex;
+  justify-content: center;
+}
