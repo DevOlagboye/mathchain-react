@@ -12,9 +12,13 @@ const About = () => {
             believe that privacy and data sovereignty are fundamental human
             rights, and we're dedicated to empowering creators with the tools
             they need to take control of their digital lives. With Match, you
-            can create a fully <span>composable</span> , <span>modular</span> ,{" "}
-            <span> user-owned </span> , and <span>interoperable</span> social
-            Dapp and have the freedom to customize your platform to your heart's
+            can create a fully{" "}
+            <span className="first-about-span">composable</span> ,{" "}
+            <span className="second-about-span">modular</span> ,{" "}
+            <span className="third-about-span"> user- </span>{" "}
+            <span className="third-about-span"> owned </span> , and{" "}
+            <span className="fourth-about-span">interoperable</span> social Dapp
+            and have the freedom to customize your platform to your heart's
             content.
           </h5>
         </div>

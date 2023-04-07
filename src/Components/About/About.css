@@ -13,11 +13,33 @@
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 20px;
-  line-height: 30px;
+  line-height: 40px;
 }
 
 .about-gif > img {
   margin-top: 40px;
+}
+
+.first-about-span,
+.third-about-span {
+  background: #ec521e;
+  padding: 5px;
+  color: #fff;
+  border-radius: 20px;
+}
+
+.second-about-span {
+  background: #f2c500;
+  padding: 5px;
+  color: #fff;
+  border-radius: 20px;
+}
+
+.fourth-about-span {
+  background: #4e4de6;
+  padding: 5px;
+  color: #fff;
+  border-radius: 20px;
 }
 
 @media (max-width: 900px) {
