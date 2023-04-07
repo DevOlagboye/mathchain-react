@@ -29,3 +29,33 @@
     top: -110px;
   }
 }
+
+.match-text-image {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 90px;
+  justify-content: center;
+  gap: 200px;
+}
+
+.match-text-details {
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+@media (min-width: 768px) {
+  .match-image > img {
+    width: 750px;
+  }
+}
+
+@media (max-width: 800px) {
+  .match-image > img {
+    width: 350px;
+  }
+  .match-text-image {
+    gap: 6px;
+  }
+}
