@@ -1,7 +1,29 @@
 .non-zero-container {
-  padding: 50px;
+  padding: 20px 60px 0px 0px;
 }
 
 .non-zero-text > h3 {
   font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  text-align: right;
+}
+
+.non-zero-text {
+  position: relative;
+}
+
+.eclipse-image {
+  position: absolute;
+  left: 0;
+  top: -180px;
+}
+
+@media (max-width: 600px) {
+  .eclipse-image {
+    width: 150px;
+  }
+  .non-zero-text > h3 {
+    font-size: 30px;
+  }
 }
