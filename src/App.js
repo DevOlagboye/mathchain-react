@@ -7,6 +7,7 @@ import CallToAction from './Components/CallToAction/CallToAction';
 import Layer from './Components/Layer/Layer';
 import HyperScale from './Components/HyperScale/HyperScale';
 import About from './Components/About/About';
+import NonZero from './Components/NonZero/NonZero';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Layer/>
       <HyperScale/>
       <About/>
+      <NonZero/>
       </Router>
     </div>
   );
