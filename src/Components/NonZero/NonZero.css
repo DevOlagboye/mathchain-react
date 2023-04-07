@@ -2,6 +2,31 @@
   padding: 20px 60px 0px 0px;
 }
 
+.non-zero-details {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.non-zero-text > h5 {
+  text-align: right;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.non-zero-gif > img {
+  width: 400px;
+}
+
+@media (min-width: 992px) {
+  .non-zero-gif > img {
+    width: 600px;
+  }
+}
+
 .non-zero-text > h3 {
   font-family: "Montserrat", sans-serif;
   font-size: 50px;
@@ -25,5 +50,12 @@
   }
   .non-zero-text > h3 {
     font-size: 30px;
+  }
+  .non-zero-gif > img {
+    width: 300px;
+  }
+  .non-zero-text > h5 {
+    line-height: 20px;
+    font-size: 17px;
   }
 }

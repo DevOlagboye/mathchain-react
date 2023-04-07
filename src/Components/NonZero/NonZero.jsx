@@ -17,6 +17,19 @@ const NonZero = () => {
         <div className="non-zero-gif">
           <img src={nonZeroGif} alt="" />
         </div>
+        <div className="non-zero-text">
+          <h5>
+            Match's collaborative approach to <br />
+            decentralized social graph technology <br /> benefits the entire
+            ecosystem, driving <br />
+            innovation and facilitating authentic social <br />
+            experiences. By empowering developers to
+            <br /> build DApps with a focus on connection and <br />
+            community rather than competing for users,
+            <br /> Match is creating a cohesive and robust decentralized <br />
+            social graph where the benefits of collaboration are felt by all.
+          </h5>
+        </div>
       </div>
     </div>
   );
