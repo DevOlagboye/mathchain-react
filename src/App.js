@@ -6,6 +6,7 @@ import HeroPage from './Components/HeroPage/HeroPage';
 import CallToAction from './Components/CallToAction/CallToAction';
 import Layer from './Components/Layer/Layer';
 import HyperScale from './Components/HyperScale/HyperScale';
+import About from './Components/About/About';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <CallToAction/>
       <Layer/>
       <HyperScale/>
+      <About/>
       </Router>
     </div>
   );
