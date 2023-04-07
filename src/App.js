@@ -8,6 +8,7 @@ import Layer from './Components/Layer/Layer';
 import HyperScale from './Components/HyperScale/HyperScale';
 import About from './Components/About/About';
 import NonZero from './Components/NonZero/NonZero';
+import Match from './Components/Match/Match';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <HyperScale/>
       <About/>
       <NonZero/>
+      <Match/>
       </Router>
     </div>
   );
