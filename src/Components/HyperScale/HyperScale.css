@@ -1,3 +1,10 @@
 .hyperscale-container {
   padding: 50px;
 }
+
+.hyperscale-main-text > h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 70px;
+}
