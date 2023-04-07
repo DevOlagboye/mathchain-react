@@ -1,0 +1,31 @@
+.match-container {
+  padding: 50px 0px 0px 50px;
+}
+
+.match-text > h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.match-text {
+  position: relative;
+}
+
+.moon-image {
+  position: absolute;
+  right: 0;
+  width: 200px;
+  top: -160px;
+}
+
+@media (max-width: 768px) {
+  .match-text > h3 {
+    font-size: 20px;
+  }
+  .moon-image {
+    width: 120px;
+    top: -110px;
+  }
+}

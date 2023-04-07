@@ -29,7 +29,8 @@
 
 .non-zero-text > h3 {
   font-family: "Montserrat", sans-serif;
-  font-size: 50px;
+  font-size: 40px;
+  text-transform: uppercase;
   font-weight: 700;
   text-align: right;
 }
