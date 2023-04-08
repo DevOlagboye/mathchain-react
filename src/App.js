@@ -10,6 +10,7 @@ import About from './Components/About/About';
 import NonZero from './Components/NonZero/NonZero';
 import Match from './Components/Match/Match';
 import NewWorld from './Components/NewWorld/NewWorld';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <NonZero/>
       <Match/>
       <NewWorld/>
+      <Footer/>
       </Router>
     </div>
   );
