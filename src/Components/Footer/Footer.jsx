@@ -8,8 +8,16 @@ const Footer = () => {
       <div className="footer-details">
         <div className="footer-text">
           <img src={footerLogo} alt="Footer Logo" />
+          <p>
+            A hyper decentralized, fully composable and private social <br />
+            graph with the same level of interoperability as Cosmos
+            <br /> network.
+          </p>
+          <hr className="footer-hr" />
         </div>
-        <div className="footer-subscribe"></div>
+        <div className="footer-subscribe">
+          <h5>Subscribe</h5>
+        </div>
       </div>
     </div>
   );

@@ -5,6 +5,16 @@
   color: #fff;
 }
 
+.footer-details {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-subscribe > h5 {
+  color: #fff;
+}
+
 .footer-text img {
   width: 120px;
 }
