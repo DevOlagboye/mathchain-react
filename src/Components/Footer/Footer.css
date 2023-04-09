@@ -19,3 +19,8 @@
 .footer-text img {
   width: 120px;
 }
+
+.footer-input {
+  display: flex;
+  margin-top: 20px;
+}
