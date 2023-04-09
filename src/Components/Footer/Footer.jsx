@@ -14,6 +14,7 @@ const Footer = () => {
             <br /> network.
           </p>
           <hr className="footer-hr" />
+          <p>Terms of use | Disclaimer</p>
         </div>
         <div className="footer-subscribe">
           <h5>Subscribe</h5>
