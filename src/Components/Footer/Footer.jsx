@@ -28,7 +28,7 @@ const Footer = () => {
                 placeholder="Your email"
                 className="footer-email"
               />
-              <button>Subscribe</button>
+              <button className="subscribe-button">Subscribe</button>
             </div>
           </p>
         </div>
