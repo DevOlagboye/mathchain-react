@@ -23,7 +23,11 @@ const Footer = () => {
             Subscribe to the newsletter to hear about Match
             <br /> Chain updates and events.
             <div className="footer-input">
-              <input type="text" placeholder="Your email" />
+              <input
+                type="text"
+                placeholder="Your email"
+                className="footer-email"
+              />
               <button>Subscribe</button>
             </div>
           </p>
