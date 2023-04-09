@@ -19,6 +19,14 @@ const Footer = () => {
         </div>
         <div className="footer-subscribe">
           <h5>Subscribe</h5>
+          <p>
+            Subscribe to the newsletter to hear about Match
+            <br /> Chain updates and events.
+            <div className="footer-input">
+              <input type="text" placeholder="Your email" />
+              <button>Subscribe</button>
+            </div>
+          </p>
         </div>
       </div>
     </div>
