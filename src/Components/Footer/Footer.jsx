@@ -15,6 +15,7 @@ const Footer = () => {
           </p>
           <hr className="footer-hr" />
           <p>Terms of use | Disclaimer</p>
+          <p>© {new Date().getFullYear()} Match Chain. All Rights Reserved.</p>
         </div>
         <div className="footer-subscribe">
           <h5>Subscribe</h5>
