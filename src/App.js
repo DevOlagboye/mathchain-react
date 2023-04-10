@@ -16,7 +16,10 @@ function App() {
   return (
     <div className="App">
       <Router>
-      <NavBar/>
+        <Routes>
+          <Route exact path="/" element={
+            <>
+            <NavBar/>
       <HeroPage/>
       <CallToAction/>
       <Layer/>
@@ -26,6 +29,9 @@ function App() {
       <Match/>
       <NewWorld/>
       <Footer/>
+            </>
+          }></Route>
+        </Routes>
       </Router>
     </div>
   );
