@@ -87,7 +87,46 @@ const NavBar = () => {
           </Dropdown>
         </ul>
         <div className="mobile-toggler">
-          <FaBars className="toggler-icon" />
+          <FaBars className="toggler-icon" onClick={showNavBar} />
+          <Drawer placement="left" onClose={onClose} open={open}>
+            <ul className="mobile-nav-list">
+              <li className="nav-item">
+                <NavLink
+                  to="/"
+                  className="nav-links"
+                  onClick={handleNavigate}
+                  style={({ isActive }) => ({
+                    borderBottom: isActive ? "2px red solid" : "none",
+                  })}
+                >
+                  Testnet
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink
+                  to="https://matchain.gitbook.io/match-chain/"
+                  className="nav-links"
+                  target="_blank"
+                  style={({ isActive }) => ({
+                    borderBottom: isActive ? "2px red solid" : "none",
+                  })}
+                >
+                  Developers
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink
+                  to="/ecosystem"
+                  className="nav-links"
+                  style={({ isActive }) => ({
+                    borderBottom: isActive ? "2px red solid" : "none",
+                  })}
+                >
+                  Ecosystem
+                </NavLink>
+              </li>
+            </ul>
+          </Drawer>
         </div>
       </div>
     </header>
