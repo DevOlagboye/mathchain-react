@@ -1,11 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import { NavLink, useNavigate } from "react-router-dom";
-import { Dropdown } from "antd";
+import { FaBars } from "react-icons/fa";
+import { Dropdown, Drawer } from "antd";
 import logo from "../../assets/images/LOGO.png";
 import languageChoose from "../../assets/images/Language_notchoose.png";
 import "./NavBar.css";
 
 const NavBar = () => {
+  const [open, setOpen] = useState(false);
+  const showNavBar = () => {
+    setOpen(true);
+  };
+  const onClose = () => {
+    setOpen(false);
+  };
   const navigate = useNavigate();
   const handleNavigate = (e) => {
     e.preventDefault();
@@ -78,6 +86,9 @@ const NavBar = () => {
             </li>
           </Dropdown>
         </ul>
+        <div className="mobile-toggler">
+          <FaBars className="icon" />
+        </div>
       </div>
     </header>
   );
