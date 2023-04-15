@@ -60,8 +60,28 @@
   cursor: pointer;
 }
 
+.mobile-toggler {
+  background: #ff0200;
+  color: #fff;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.mobile-toggler:hover {
+  cursor: pointer;
+}
+
+.toggler-icon {
+  display: block;
+  margin: 10px auto;
+  font-size: 18px;
+}
+
 @media (max-width: 1024px) {
   .nav-list {
     display: none;
+  }
+  .mobile-toggler {
   }
 }

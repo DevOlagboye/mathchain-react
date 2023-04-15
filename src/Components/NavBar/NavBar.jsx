@@ -87,7 +87,7 @@ const NavBar = () => {
           </Dropdown>
         </ul>
         <div className="mobile-toggler">
-          <FaBars className="icon" />
+          <FaBars className="toggler-icon" />
         </div>
       </div>
     </header>
