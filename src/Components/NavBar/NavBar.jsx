@@ -90,7 +90,7 @@ const NavBar = () => {
           <FaBars className="toggler-icon" onClick={showNavBar} />
           <Drawer placement="left" onClose={onClose} open={open}>
             <ul className="mobile-nav-list">
-              <li className="nav-item">
+              <li className="mobile-nav-item">
                 <NavLink
                   to="/"
                   className="nav-links"
@@ -102,7 +102,7 @@ const NavBar = () => {
                   Testnet
                 </NavLink>
               </li>
-              <li className="nav-item">
+              <li className="mobile-nav-item">
                 <NavLink
                   to="https://matchain.gitbook.io/match-chain/"
                   className="nav-links"
@@ -114,7 +114,7 @@ const NavBar = () => {
                   Developers
                 </NavLink>
               </li>
-              <li className="nav-item">
+              <li className="mobile-nav-item">
                 <NavLink
                   to="/ecosystem"
                   className="nav-links"

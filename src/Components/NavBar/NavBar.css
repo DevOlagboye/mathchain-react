@@ -28,6 +28,11 @@
   border-right: 2px solid #ece7e7;
 }
 
+.mobile-nav-item {
+  list-style: none;
+  margin-top: 30px;
+}
+
 .nav-item:nth-last-child(2) {
   border: none;
 }
