@@ -66,6 +66,8 @@
   height: 40px;
   width: 40px;
   border-radius: 50%;
+  position: absolute;
+  right: 20px;
 }
 
 .mobile-toggler:hover {
