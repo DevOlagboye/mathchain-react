@@ -1,5 +1,5 @@
 .match-container {
-  padding: 50px 0px 0px 50px;
+  padding: 50px 50px 0px 50px;
 }
 
 .match-text > h3 {
@@ -47,7 +47,7 @@
 
 @media (min-width: 768px) {
   .match-image > img {
-    width: 750px;
+    width: 650px;
   }
 }
 
@@ -57,5 +57,13 @@
   }
   .match-text-image {
     gap: 6px;
+  }
+  .match-text-details {
+    font-size: 17px;
+    line-height: 20px;
+  }
+  .match-text-image {
+    gap: 50px;
+    margin-top: 20px;
   }
 }
