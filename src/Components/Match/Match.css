@@ -1,72 +1,72 @@
 .match-container {
-  padding: 50px 0px 0px 50px;
+    padding: 50px 0px 0px 50px;
 }
 
-.match-text > h3 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 40px;
-  text-transform: uppercase;
-  font-weight: 700;
+.match-text>h3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 700;
 }
 
 .match-text {
-  position: relative;
+    position: relative;
 }
 
 .moon-image {
-  position: absolute;
-  right: 0;
-  width: 200px;
-  top: -160px;
+    position: absolute;
+    right: 0;
+    width: 200px;
+    top: -160px;
 }
 
 @media (max-width: 768px) {
-  .match-text > h3 {
-    font-size: 20px;
-  }
-  .moon-image {
-    width: 120px;
-    top: -110px;
-  }
+    .match-text>h3 {
+        font-size: 20px;
+    }
+    .moon-image {
+        width: 120px;
+        top: -110px;
+    }
 }
 
 .match-text-image {
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: 90px;
-  justify-content: center;
-  gap: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 90px;
+    justify-content: center;
+    gap: 100px;
 }
 
 .match-text-details {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
 }
 
 @media (min-width: 768px) {
-  .match-image > img {
-    width: 650px;
-  }
+    .match-image>img {
+        width: 650px;
+    }
 }
 
 @media (max-width: 800px) {
-  .match-image > img {
-    width: 350px;
-  }
-  .match-text-image {
-    gap: 6px;
-  }
-  .match-text-details {
-    font-size: 17px;
-    line-height: 20px;
-  }
-  .match-text-image {
-    gap: 50px;
-    margin-top: 20px;
-  }
-  .match-container {
-    padding: 50px 30px 0px 50px;
-  }
+    .match-image>img {
+        width: 350px;
+    }
+    .match-text-image {
+        gap: 6px;
+    }
+    .match-text-details {
+        font-size: 17px;
+        line-height: 20px;
+    }
+    .match-text-image {
+        gap: 50px;
+        margin-top: 20px;
+    }
+    .match-container {
+        padding: 50px 30px 0px 50px;
+    }
 }
