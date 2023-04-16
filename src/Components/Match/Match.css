@@ -1,5 +1,5 @@
 .match-container {
-  padding: 50px 50px 0px 50px;
+  padding: 50px 0px 0px 50px;
 }
 
 .match-text > h3 {
@@ -65,5 +65,8 @@
   .match-text-image {
     gap: 50px;
     margin-top: 20px;
+  }
+  .match-container {
+    padding: 50px 30px 0px 50px;
   }
 }
