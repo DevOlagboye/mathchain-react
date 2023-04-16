@@ -57,8 +57,10 @@
 @media (max-width: 600px) {
   .subscribe-button {
     width: 100%;
+    margin-left: 0px;
   }
   .footer-email {
     width: 100%;
+    margin-top: 10px;
   }
 }
