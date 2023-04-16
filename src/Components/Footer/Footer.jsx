@@ -24,7 +24,7 @@ const Footer = () => {
             <br /> Chain updates and events.
             <div className="footer-input">
               <input
-                type="text"
+                type="email"
                 placeholder="Your email"
                 className="footer-email"
               />
