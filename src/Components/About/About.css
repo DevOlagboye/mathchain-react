@@ -52,6 +52,8 @@
   }
   .about-text > h5 {
     width: 100%;
+    font-size: 17px;
+    line-height: 35px;
   }
 }
 
