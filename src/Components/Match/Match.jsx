@@ -1,4 +1,5 @@
 import React from "react";
+import newWorldImage from "../../assets/images/newworld-left.png";
 import "./Match.css";
 import moonImage from "../../assets/images/moon.png";
 import matchImage from "../../assets/images/match-gif.gif";
@@ -33,6 +34,7 @@ const Match = () => {
           <img src={matchImage} alt="" />
         </div>
       </div>
+      <img src={newWorldImage} alt="" className="match-left-svg" />
     </div>
   );
 };
