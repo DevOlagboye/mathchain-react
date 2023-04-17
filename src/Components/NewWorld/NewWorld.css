@@ -49,5 +49,6 @@
   .new-world-text img {
     width: 70px;
     left: 10%;
+    display: none;
   }
 }
