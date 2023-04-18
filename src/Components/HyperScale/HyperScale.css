@@ -22,6 +22,9 @@
 }
 
 @media (max-width: 800px) {
+  .hyperscale-container {
+    padding: 20px;
+  }
   .hyper-img {
     width: 70px;
     top: -50px;
