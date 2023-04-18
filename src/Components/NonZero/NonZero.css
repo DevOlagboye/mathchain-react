@@ -47,7 +47,7 @@
 
 @media (max-width: 600px) {
   .non-zero-container {
-    padding: 20px 20px 0px 0px;
+    padding: 80px 20px 0px 0px;
   }
   .eclipse-image {
     width: 150px;
