@@ -46,8 +46,12 @@
 }
 
 @media (max-width: 600px) {
+  .non-zero-container {
+    padding: 20px 20px 0px 0px;
+  }
   .eclipse-image {
     width: 150px;
+    margin-top: 20px;
   }
   .non-zero-text > h3 {
     font-size: 23px;
