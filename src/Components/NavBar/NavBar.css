@@ -94,3 +94,9 @@
     display: flex;
   }
 }
+
+@media (max-width: 600px) {
+  .logo {
+    width: 80px;
+  }
+}
