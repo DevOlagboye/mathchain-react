@@ -43,6 +43,9 @@
 }
 
 @media (max-width: 900px) {
+  .about-container {
+    padding: 20px;
+  }
   .about-gif > img {
     width: 360px;
     margin-top: 15px;
@@ -54,6 +57,7 @@
     width: 100%;
     font-size: 17px;
     line-height: 35px;
+    margin-top: -25px;
   }
 }
 
