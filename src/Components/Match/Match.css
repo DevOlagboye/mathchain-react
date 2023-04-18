@@ -20,16 +20,6 @@
   top: -160px;
 }
 
-@media (max-width: 768px) {
-  .match-text > h3 {
-    font-size: 20px;
-  }
-  .moon-image {
-    width: 120px;
-    top: -110px;
-  }
-}
-
 .match-text-image {
   display: flex;
   flex-wrap: wrap;
@@ -70,9 +60,19 @@
     margin-top: 20px;
   }
   .match-container {
-    padding: 50px 30px 0px 50px;
+    padding: 50px 0px 0px 20px;
   }
   .match-left-svg {
     width: 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  .match-text > h3 {
+    font-size: 20px;
+  }
+  .moon-image {
+    width: 120px;
+    top: -110px;
   }
 }
