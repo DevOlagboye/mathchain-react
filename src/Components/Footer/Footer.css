@@ -60,6 +60,9 @@
 }
 
 @media (max-width: 600px) {
+  .footer-container {
+    margin-top: 40px;
+  }
   .subscribe-button {
     width: 100%;
     margin-left: 0px;
