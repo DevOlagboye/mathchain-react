@@ -38,6 +38,9 @@
 }
 
 @media (max-width: 600px) {
+  .new-world-container {
+    margin-top: 40px;
+  }
   .new-world-text > h5 {
     font-weight: 700;
     font-size: 20px;
